@@ -1,0 +1,16 @@
+#ifndef PLATFORM_H
+#define PLATFORM_H
+
+#define PLATFORM_LINUX		0
+#define PLATFORM_WINDOWS	1
+#define PLATFORM_TARGET  PLATFORM_LINUX
+
+#if PLATFORM_TARGET == PLATFORM_LINUX
+    #define IS_PLATFORM_LINUX
+    #define CLEAR_SCREEN "clear"  //
+#elif PLATFORM_TARGET == PLATFORM_WINDOWS
+    #define IS_PLATFORM_WINDOWS
+    #define CLEAR_SCREEN "cls"  //
+#endif
+
+#endif

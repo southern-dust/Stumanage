@@ -1,4 +1,4 @@
-This program is a simple Student info Management System.
+## This program is a simple Student info Management System.
 It the C college-term final design, written with link list data structure.
 
 ```

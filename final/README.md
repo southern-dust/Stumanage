@@ -1,19 +1,22 @@
-.
-├── [   78]  data.txt
-├── [  935]  Main.c
-├── [  380]  Makefile.sh
-├── [ 4.0K]  Operation
-│   ├── [ 1.3K]  FileOperation.c
-│   ├── [ 4.8K]  InfoOperation.c
-│   ├── [ 1.9K]  ListOperation.c
-│   └── [  639]  Operation.h
-├── [ 4.0K]  Platform
-│   └── [  362]  Platform.h
-├── [    0]  README.md
-├── [  448]  Struct.h
-├── [  18K]  Stumage
-└── [ 4.0K]  UIOperation
-    ├── [ 3.6K]  UIOperation.c
-    └── [  372]  UIOperation.h
+## This program is a simple Student info Management System.
+## It the C college-term final design, written with link list data structure.
 
-3 directories, 13 files
+```
+.
++-- data.txt	-- the test data
++-- Main.c	-- main logic of the program
++-- Makefile.sh	-- a script to complie project on *nix machines
++-- Operation	-- functions of Operations
+|   +-- FileOperation.c
+|   +-- InfoOperation.c
+|   +-- ListOperation.c
+|   +-- Operation.h
++-- Platform	-- platform abouts
+|   +-- Platform.h
++-- README.md	-- this document
++-- Struct.h	-- data structure of this program
++-- UIOperation	-- functions working for Main.c
+|   +-- UIOperation.c
+|   +-- UIOperation.h
+
+```
